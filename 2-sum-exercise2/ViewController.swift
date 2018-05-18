@@ -12,7 +12,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let resultsLabel = UILabel(frame: CGRect(x: 50, y: 50, width: 55, height: 55))
+        resultsLabel.text = "neki"
     }
 
     override func didReceiveMemoryWarning() {
