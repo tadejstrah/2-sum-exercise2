@@ -14,6 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         let resultsLabel = UILabel(frame: CGRect(x: 50, y: 50, width: 55, height: 55))
         resultsLabel.text = "neki"
+        self.view.addSubview(resultsLabel)
     }
 
     override func didReceiveMemoryWarning() {
